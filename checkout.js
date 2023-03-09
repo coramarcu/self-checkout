@@ -8,7 +8,9 @@ const scan = function (customerBarcode) {
   });
 };
 
-const addItem = function () {};
+const addItem = function (productToAdd) {
+  basket.push(productToAdd);
+};
 
 const totalPrice = function () {};
 

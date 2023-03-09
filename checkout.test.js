@@ -5,4 +5,12 @@ describe("self-checkout", () => {
   it("scans the barcode", () => {
     expect(scan(orange.barcode)).toBe(orange);
   });
+
+  it("add product to basket", () => {
+    expect(basket.length).toBe(0);
+
+    addItem(pineapple);
+
+    expect(basket.length).toBe(1);
+  });
 });
