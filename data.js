@@ -24,3 +24,5 @@ const banana = {
 };
 
 const catalogue = [apple, banana, orange, pineapple, kiwi];
+
+module.exports = { orange, pineapple, kiwi, apple, banana, catalogue };
